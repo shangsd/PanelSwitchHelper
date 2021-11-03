@@ -27,8 +27,8 @@ android {
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
-    implementation deps.androidx.annotations
-    implementation deps.androidx.appcompat
+    implementation deps.support.annotations
+    implementation deps.support.appcompat
 }
 
 task generateSourcesJar(type: Jar) {

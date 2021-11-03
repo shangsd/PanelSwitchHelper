@@ -2,13 +2,13 @@ package com.effective.android.panel
 
 import android.R
 import android.app.Activity
+import android.support.annotation.IdRes
+import android.support.v4.app.DialogFragment
+import android.support.v4.app.Fragment
 import android.view.View
 import android.view.ViewGroup
 import android.view.Window
 import android.widget.EditText
-import androidx.annotation.IdRes
-import androidx.fragment.app.DialogFragment
-import androidx.fragment.app.Fragment
 import com.effective.android.panel.interfaces.*
 import com.effective.android.panel.interfaces.listener.*
 import com.effective.android.panel.log.LogTracker

@@ -1,16 +1,12 @@
 package com.example.demo.scene.chat.view;
 
 import android.content.Context;
+import android.support.annotation.Nullable;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
 import android.util.AttributeSet;
 import android.view.MotionEvent;
-import android.view.View;
 
-import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
-import androidx.recyclerview.widget.LinearLayoutManager;
-import androidx.recyclerview.widget.RecyclerView;
-
-import com.effective.R;
 import com.effective.android.panel.PanelSwitchHelper;
 
 public class AutoHidePanelRecyclerView extends RecyclerView {

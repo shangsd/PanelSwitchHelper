@@ -10,9 +10,9 @@ import android.view.KeyEvent;
 import android.view.View;
 import android.widget.Toast;
 
-import androidx.core.content.ContextCompat;
-import androidx.databinding.DataBindingUtil;
-import androidx.recyclerview.widget.LinearLayoutManager;
+import android.support.v4.content.ContextCompat;
+import android.databinding.DataBindingUtil;
+import android.support.v7.widget.LinearLayoutManager;
 
 import com.effective.R;
 import com.effective.android.panel.PanelSwitchHelper;

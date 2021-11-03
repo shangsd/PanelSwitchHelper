@@ -1,14 +1,11 @@
 package com.example.demo.systemui;
 
-import android.Manifest;
 import android.app.Activity;
 import android.content.Context;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
-import android.content.res.Configuration;
 import android.content.res.Resources;
 import android.graphics.Point;
-import android.net.ConnectivityManager;
 import android.os.Build;
 import android.os.Environment;
 import android.util.DisplayMetrics;
@@ -20,7 +17,6 @@ import android.view.ViewConfiguration;
 import android.view.WindowManager;
 
 import java.lang.reflect.Field;
-import java.util.Locale;
 
 
 /**

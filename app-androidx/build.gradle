@@ -55,12 +55,12 @@ android {
 dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
-    implementation deps.androidx.appcompat
-    implementation deps.androidx.recyclerview
-    implementation deps.androidx.constraint
+    implementation deps.support.appcompat
+    implementation deps.support.recyclerview
+    implementation deps.support.constraint
     implementation deps.pageindicator
     implementation deps.circleimageview
-    implementation deps.panelSwitchHelper_androidx
-//    implementation project(":panel-androidx")
+//    implementation deps.panelSwitchHelper_androidx
+    implementation project(":panel-androidx")
 //    implementation 'com.squareup.leakcanary:leakcanary-android:2.4'
 }

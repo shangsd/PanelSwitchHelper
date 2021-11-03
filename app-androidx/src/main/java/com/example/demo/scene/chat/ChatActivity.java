@@ -2,30 +2,25 @@ package com.example.demo.scene.chat;
 
 import android.content.Context;
 import android.content.Intent;
+import android.databinding.DataBindingUtil;
 import android.graphics.Color;
-
-import androidx.annotation.NonNull;
-import androidx.core.content.ContextCompat;
-
 import android.os.Bundle;
+import android.support.annotation.NonNull;
+import android.support.v4.content.ContextCompat;
+import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
 import android.text.TextUtils;
 import android.util.Log;
 import android.view.View;
 import android.view.Window;
 import android.widget.Toast;
 
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.databinding.DataBindingUtil;
-import androidx.recyclerview.widget.LinearLayoutManager;
-import androidx.recyclerview.widget.RecyclerView;
-
 import com.effective.R;
 import com.effective.android.panel.PanelSwitchHelper;
 import com.effective.android.panel.interfaces.ContentScrollMeasurer;
-import com.effective.android.panel.interfaces.PanelHeightMeasurer;
 import com.effective.android.panel.interfaces.TriggerViewClickInterceptor;
 import com.effective.android.panel.interfaces.listener.OnPanelChangeListener;
-import com.effective.android.panel.utils.DisplayUtil;
 import com.effective.android.panel.view.panel.IPanelView;
 import com.effective.android.panel.view.panel.PanelView;
 import com.effective.databinding.CommonChatLayoutBinding;
@@ -38,8 +33,6 @@ import com.example.demo.scene.chat.emotion.Emotions;
 import com.example.demo.systemui.StatusbarHelper;
 import com.example.demo.util.DisplayUtils;
 import com.rd.PageIndicatorView;
-
-import org.jetbrains.annotations.NotNull;
 
 /**
  * Created by yummyLau on 18-7-11

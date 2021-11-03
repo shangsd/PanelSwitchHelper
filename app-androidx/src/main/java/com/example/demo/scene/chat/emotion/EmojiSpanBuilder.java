@@ -5,7 +5,7 @@ import android.graphics.drawable.Drawable;
 import android.text.Spannable;
 import android.text.SpannableString;
 
-import androidx.core.content.ContextCompat;
+import android.support.v4.content.ContextCompat;
 
 import com.example.demo.util.DisplayUtils;
 

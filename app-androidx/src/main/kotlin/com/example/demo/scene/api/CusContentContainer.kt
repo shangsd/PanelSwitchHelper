@@ -4,10 +4,8 @@ import android.content.Context
 import android.util.AttributeSet
 import android.view.MotionEvent
 import android.view.View
-import android.widget.EditText
-import android.widget.FrameLayout
-import androidx.annotation.IdRes
-import androidx.constraintlayout.widget.ConstraintLayout
+import android.support.annotation.IdRes
+import android.support.constraint.ConstraintLayout
 import com.effective.R
 import com.effective.android.panel.interfaces.ContentScrollMeasurer
 import com.effective.android.panel.view.content.ContentContainerImpl

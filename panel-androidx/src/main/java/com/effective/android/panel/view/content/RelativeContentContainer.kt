@@ -2,12 +2,11 @@ package com.effective.android.panel.view.content
 
 import android.annotation.TargetApi
 import android.content.Context
+import android.support.annotation.IdRes
 import android.util.AttributeSet
 import android.view.MotionEvent
 import android.view.View
-import android.widget.EditText
 import android.widget.RelativeLayout
-import androidx.annotation.IdRes
 import com.effective.android.panel.R
 import com.effective.android.panel.interfaces.ContentScrollMeasurer
 

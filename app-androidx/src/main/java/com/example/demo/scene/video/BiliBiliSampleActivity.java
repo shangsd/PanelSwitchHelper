@@ -1,10 +1,13 @@
 package com.example.demo.scene.video;
 
 import android.content.res.Configuration;
+import android.databinding.DataBindingUtil;
 import android.graphics.Color;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
+import android.support.annotation.Nullable;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Pair;
 import android.view.Gravity;
 import android.view.View;
@@ -12,9 +15,6 @@ import android.view.Window;
 import android.view.WindowManager;
 import android.widget.RelativeLayout;
 
-import androidx.annotation.Nullable;
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.databinding.DataBindingUtil;
 
 import com.effective.R;
 import com.effective.android.panel.utils.DisplayUtil;

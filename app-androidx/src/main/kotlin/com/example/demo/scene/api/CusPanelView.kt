@@ -2,9 +2,9 @@ package com.example.demo.scene.api
 
 import android.content.Context
 import android.graphics.Color
+import android.support.v7.widget.AppCompatTextView
 import android.util.AttributeSet
 import android.view.Gravity
-import androidx.appcompat.widget.AppCompatTextView
 import com.effective.R
 import com.effective.android.panel.view.panel.IPanelView
 

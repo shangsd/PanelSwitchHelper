@@ -2,34 +2,17 @@ package com.example.demo.scene.chat;
 
 import android.content.Context;
 import android.content.Intent;
+import android.databinding.DataBindingUtil;
 import android.graphics.Color;
-import android.os.Build;
 import android.os.Bundle;
-import android.util.Log;
-import android.view.View;
-import android.view.ViewGroup;
-import android.view.Window;
-import android.view.WindowManager;
-
-import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
-import androidx.appcompat.view.WindowCallbackWrapper;
-import androidx.core.content.ContextCompat;
-import androidx.databinding.DataBindingUtil;
-import androidx.fragment.app.Fragment;
-import androidx.fragment.app.FragmentActivity;
-import androidx.fragment.app.FragmentPagerAdapter;
+import android.support.annotation.Nullable;
+import android.support.v4.app.FragmentActivity;
 
 import com.effective.R;
 import com.effective.databinding.ActivityChatFragmentLayoutBinding;
 import com.example.demo.Constants;
 import com.example.demo.anno.ChatPageType;
 import com.example.demo.systemui.StatusbarHelper;
-
-import java.util.ArrayList;
-import java.util.List;
-
-import static androidx.fragment.app.FragmentStatePagerAdapter.BEHAVIOR_RESUME_ONLY_CURRENT_FRAGMENT;
 
 public class ChatFragmentActivity extends FragmentActivity {
 

@@ -1,7 +1,7 @@
 package com.example.demo.scene.chat.emotion;
 
 
-import androidx.annotation.DrawableRes;
+import android.support.annotation.DrawableRes;
 
 /**
  * Created by yummyLau on 18-7-11

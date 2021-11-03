@@ -1,6 +1,6 @@
 package com.effective.android.panel.view.panel
 
-import androidx.annotation.IdRes
+import android.support.annotation.IdRes
 import com.effective.android.panel.interfaces.ViewAssertion
 
 /**

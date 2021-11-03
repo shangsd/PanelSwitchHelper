@@ -3,6 +3,9 @@ package com.example.demo.systemui;
 import android.content.Context;
 import android.content.res.TypedArray;
 import android.os.Build;
+import android.support.annotation.ColorRes;
+import android.support.annotation.Nullable;
+import android.support.v4.content.ContextCompat;
 import android.util.AttributeSet;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -12,9 +15,6 @@ import com.effective.R;
 
 import java.lang.reflect.Field;
 
-import androidx.annotation.ColorRes;
-import androidx.annotation.Nullable;
-import androidx.core.content.ContextCompat;
 
 /**
  * 状态栏view

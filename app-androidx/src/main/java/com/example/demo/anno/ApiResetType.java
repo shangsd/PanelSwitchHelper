@@ -1,12 +1,13 @@
 package com.example.demo.anno;
 
 
-import androidx.annotation.IntDef;
 import static com.example.demo.anno.ApiResetType.ENABLE_EmptyView;
 import static com.example.demo.anno.ApiResetType.ENABLE_RecyclerView;
 import static com.example.demo.anno.ApiResetType.ENABLE_HookActionUpRecyclerview;
 import static com.example.demo.anno.ApiResetType.DISABLE;
 import static com.example.demo.anno.ApiResetType.ENABLE;
+
+import android.support.annotation.IntDef;
 
 @IntDef({DISABLE,ENABLE,ENABLE_EmptyView, ENABLE_RecyclerView, ENABLE_HookActionUpRecyclerview})
 public @interface ApiResetType {

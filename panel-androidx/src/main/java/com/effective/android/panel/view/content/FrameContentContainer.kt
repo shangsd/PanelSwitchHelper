@@ -8,7 +8,7 @@ import android.view.View
 import android.widget.EditText
 import android.widget.FrameLayout
 import android.widget.RelativeLayout
-import androidx.annotation.IdRes
+import android.support.annotation.IdRes
 import com.effective.android.panel.R
 import com.effective.android.panel.interfaces.ContentScrollMeasurer
 

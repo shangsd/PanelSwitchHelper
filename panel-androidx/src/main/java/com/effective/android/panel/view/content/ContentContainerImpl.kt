@@ -10,7 +10,7 @@ import android.view.ViewGroup
 import android.view.accessibility.AccessibilityEvent
 import android.view.inputmethod.EditorInfo
 import android.widget.EditText
-import androidx.annotation.IdRes
+import android.support.annotation.IdRes
 import com.effective.android.panel.Constants
 import com.effective.android.panel.log.LogTracker
 import com.effective.android.panel.interfaces.ViewAssertion

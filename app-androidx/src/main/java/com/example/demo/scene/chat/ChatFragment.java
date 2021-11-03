@@ -1,21 +1,19 @@
 package com.example.demo.scene.chat;
 
+import android.databinding.DataBindingUtil;
 import android.graphics.Color;
 import android.os.Bundle;
-
-import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
-import androidx.core.content.ContextCompat;
+import android.support.annotation.NonNull;
+import android.support.annotation.Nullable;
+import android.support.v4.app.Fragment;
+import android.support.v4.content.ContextCompat;
+import android.support.v7.widget.LinearLayoutManager;
 import android.text.TextUtils;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Toast;
-
-import androidx.databinding.DataBindingUtil;
-import androidx.fragment.app.Fragment;
-import androidx.recyclerview.widget.LinearLayoutManager;
 
 import com.effective.R;
 import com.effective.android.panel.PanelSwitchHelper;
@@ -29,7 +27,6 @@ import com.example.demo.scene.chat.adapter.ChatAdapter;
 import com.example.demo.scene.chat.adapter.ChatInfo;
 import com.example.demo.scene.chat.emotion.EmotionPagerView;
 import com.example.demo.scene.chat.emotion.Emotions;
-import com.example.demo.scene.live.huya.PcHuyaLiveActivity;
 import com.example.demo.systemui.StatusbarHelper;
 import com.example.demo.util.DisplayUtils;
 import com.rd.PageIndicatorView;
@@ -111,16 +108,16 @@ public class ChatFragment extends Fragment {
                     //可选
                     .addEditTextFocusChangeListener((view, hasFocus) -> {
                         Log.d(TAG, "输入框是否获得焦点 : " + hasFocus);
-                        if(hasFocus){
+                        if (hasFocus) {
                             scrollToBottom();
                         }
                     })
                     //可选
                     .addViewClickListener(view -> {
-                        switch (view.getId()){
+                        switch (view.getId()) {
                             case R.id.edit_text:
                             case R.id.add_btn:
-                            case R.id.emotion_btn:{
+                            case R.id.emotion_btn: {
                                 scrollToBottom();
                             }
                         }
@@ -144,15 +141,15 @@ public class ChatFragment extends Fragment {
                         @Override
                         public void onPanel(IPanelView view) {
                             Log.d(TAG, "唤起面板 : " + view);
-                            if(view instanceof PanelView){
-                                mBinding.emotionBtn.setSelected(((PanelView)view).getId() == R.id.panel_emotion ? true : false);
+                            if (view instanceof PanelView) {
+                                mBinding.emotionBtn.setSelected(((PanelView) view).getId() == R.id.panel_emotion ? true : false);
                             }
                         }
 
                         @Override
                         public void onPanelSizeChange(IPanelView panelView, boolean portrait, int oldWidth, int oldHeight, int width, int height) {
-                            if(panelView instanceof PanelView){
-                                switch (((PanelView)panelView).getId()) {
+                            if (panelView instanceof PanelView) {
+                                switch (((PanelView) panelView).getId()) {
                                     case R.id.panel_emotion: {
                                         EmotionPagerView pagerView = mBinding.getRoot().findViewById(R.id.view_pager);
                                         int viewPagerSize = height - DisplayUtils.dip2px(getContext(), 30f);

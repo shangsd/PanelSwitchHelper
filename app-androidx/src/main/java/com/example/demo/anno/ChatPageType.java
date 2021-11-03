@@ -1,7 +1,6 @@
 package com.example.demo.anno;
 
 
-import androidx.annotation.IntDef;
 
 import static com.example.demo.anno.ChatPageType.DEFAULT;
 import static com.example.demo.anno.ChatPageType.COLOR_STATUS_BAR;
@@ -9,6 +8,8 @@ import static com.example.demo.anno.ChatPageType.TITLE_BAR;
 import static com.example.demo.anno.ChatPageType.TRANSPARENT_STATUS_BAR;
 import static com.example.demo.anno.ChatPageType.TRANSPARENT_STATUS_BAR_DRAW_UNDER;
 import static com.example.demo.anno.ChatPageType.CUS_TITLE_BAR;
+
+import android.support.annotation.IntDef;
 
 @IntDef({DEFAULT, TITLE_BAR, COLOR_STATUS_BAR, CUS_TITLE_BAR, TRANSPARENT_STATUS_BAR, TRANSPARENT_STATUS_BAR_DRAW_UNDER})
 public @interface ChatPageType {

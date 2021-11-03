@@ -1,10 +1,11 @@
 package com.effective.android.panel.view.content
 
+import android.support.annotation.IdRes
 import android.view.MotionEvent
 import android.view.View
 import android.view.View.OnFocusChangeListener
 import android.widget.EditText
-import androidx.annotation.IdRes
+
 import com.effective.android.panel.interfaces.ContentScrollMeasurer
 
 interface IContentContainer {
